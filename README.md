@@ -33,9 +33,10 @@ Steg 6: GitHub-uppladdning
 1.	Skapade ett nytt GitHub-repository för att lagra projektet.
 2.	Laddade upp alla projektfiler och dokumentation till GitHub-repositoryt.
 Steg 7: Ladda upp till DockerHub
-1.	Loggade in på DockerHub med docker login.
-2.	Taggade Docker-bilden med min DockerHub-användarnamn och repositories namn: docker tag todo-app <DockerHub-användarnamn>/<repositories namn>.
-3.	Pushade Docker-bilden till DockerHub: docker push <DockerHub-användarnamn>/<repositories namn>.
+Loggade in på DockerHub med docker login.
+Taggade Docker-bilden med min DockerHub-pkukaj och repositories namn: docker tag petrit_todo_app <DockerHub-pkukaj>/<petrit_todo_app>.
+Pushade Docker-bilden till DockerHub: docker push  <DockerHub-pkukaj>/<petrit_todo_app>.
+
 Sammafattning
 Projektet uppfyller alla krav från dagens material. Genom att använda Python, Flask och Docker har jag lyckats skapa en funktionell webbapplikation för att hantera To-Do-listor. Genom att ladda upp projektets källkod till GitHub och Docker-bilden till DockerHub, har jag säkerställt att projektet är tillgängligt för granskning och användning. Jag är nöjd med resultatet och ser fram emot att fortsätta utforska dessa teknologier.
 
